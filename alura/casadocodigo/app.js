@@ -1,5 +1,5 @@
-let app = require('./config/express')()
+var app = require('./config/express')();
 
-app.listen(3000, function(){
-	console.log("server ok")
+app.listen(3000, function() {
+    console.log("servidor rodando");
 })
